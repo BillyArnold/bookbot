@@ -50,5 +50,6 @@ def main():
     letters_in_order = sort_dict_by_num(letter_counts)
 
     print_report(word_count, letters_in_order, book_name)
+    print('finished')
 
 main()
